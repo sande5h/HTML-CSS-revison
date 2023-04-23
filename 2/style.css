@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #6a6d70; /* light green color */
+  justify-content: center;
+}
+
+.Application {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  left: 270px;
+  top: 27px;
+
+  background: #ffffff;
+  border-radius: 13px;
+}
+
+.title {
+  position: absolute;
+  width: 635px;
+  height: 82px;
+  left: 20px;
+  top: 10px;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.title h3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
